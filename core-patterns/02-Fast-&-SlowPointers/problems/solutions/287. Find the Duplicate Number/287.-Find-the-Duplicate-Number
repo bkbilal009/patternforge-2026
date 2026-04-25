@@ -1,7 +1,7 @@
 class Solution:
     def findDuplicate(self, nums: List[int]) -> int:
         seen = set()
-        # T:O(n) & S:(1)
+        # T:O(n) & S:O(n)
         for num in nums:
             if num in seen:
                 return num
